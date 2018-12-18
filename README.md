@@ -6,7 +6,7 @@ As part of the project, different models of SVM (kernel polynomial-based, kernel
 The program displays the prediction result, a confusen matrix, and a table with the most incorrect classification in each category. In addition, the system maintains the classification and error results for Excel files on the user's computer.
 
 ## Normalization of histogram of each image in the dataset was.
-  S_i=∑_(j=0)^i▒〖p(r_i )=n_j/n〗
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/norm cal.png)
 
 ## MODELS
 The models we tested are:
