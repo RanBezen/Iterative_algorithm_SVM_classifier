@@ -47,9 +47,9 @@ The function to be maximized has 5 parameters, and consists of three different p
  In each iteration, two parts are set to constant, and search is made for the free parameters that maximize the target function using a grid search, for example:
  
 Parameters initialize
-a. constant parameters: n bins, cell size, S. The free parameters to be found are: gamma and c. We searched for gamma and c that maximize the target function using a grid search
-b. constant parameters: gamma, c, S. The free parameters to be found are: n bins, cell size. We search for nbins, cell size, maximizing the target function using grid search.
-c. constant Parameters: All parameters except S. The free parameters to be found are: S. Search for S that maximizes the target function.
-d. If the accuracy does not converge (does not exceed two iterations), go back to step a.
+1. constant parameters: n bins, cell size, S. The free parameters to be found are: gamma and c. We searched for gamma and c that maximize the target function using a grid search
+2. constant parameters: gamma, c, S. The free parameters to be found are: n bins, cell size. We search for nbins, cell size, maximizing the target function using grid search.
+3. constant Parameters: All parameters except S. The free parameters to be found are: S. Search for S that maximizes the target function.
+4. If the accuracy does not converge (does not exceed two iterations), go back to step 1.
 
 In this project the parameters were adjusted on the data set 1-10 when the training was done on the first 20 images in each class, and the 20 remaining images were generated in the same class.
