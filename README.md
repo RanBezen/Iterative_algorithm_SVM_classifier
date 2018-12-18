@@ -83,7 +83,7 @@ The model was tested on  dataset classes 11-20 when the training was done on the
 
 ### Top two critical errors for eac class
 
-![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/errors_grid.PNG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/errors_grid.jpg)
 
 
 
