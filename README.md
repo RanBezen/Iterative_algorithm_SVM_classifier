@@ -7,7 +7,12 @@ The program displays the prediction result, a confusen matrix, and a table with 
 
 ## Normalization of histogram of each image in the dataset was.
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/norm_cal.PNG)
+Example:
+with normalization
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/norm.PNG)
 
+without normalization
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/unnorm.PNG)
       
 ## MODELS
 The models we tested are:
