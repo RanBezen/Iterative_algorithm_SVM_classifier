@@ -39,7 +39,7 @@ The function to be maximized has 5 parameters, and consists of three different p
 - Part 3 - parameter of dataset
   - image size
   
-##Iterative algorithm
+## Iterative algorithm
  	
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/iter_algo.PNG)
 
@@ -54,14 +54,14 @@ Parameters initialize
 
 In this project the parameters were adjusted on the data set 1-10 when the training was done on the first 20 images in each class, and the 20 remaining images were generated in the same class.
 
-##Parameters tunning Graphs
+## Parameters tunning Graphs
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs1.PNG)
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs2.PNG)
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs3.PNG)
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs_linear.PNG)
 
-##RESULTS
-###Parameters:
+## RESULTS
+### Parameters:
 |     Params    |       RBF     |   Poly     |  Linear    |
 | ------------- | ------------- |------------|------------|
 | C | 46.416  |   3     |     2     |
