@@ -55,8 +55,22 @@ Parameters initialize
 In this project the parameters were adjusted on the data set 1-10 when the training was done on the first 20 images in each class, and the 20 remaining images were generated in the same class.
 
 ##Parameters tunning Graphs
-![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graph1.PNG)
-![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graph2.PNG)
-![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graph3.PNG)
-![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graph_linear.PNG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs1.PNG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs2.PNG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs3.PNG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs_linear.PNG)
+
+##RESULTS
+###Parameters:
+|     Params    |       RBF     |   Poly     |  Linear    |
+| ------------- | ------------- |------------|------------|
+| C | 46.416  |   3     |     2     |
+| Gamma  |0.04  | 0.02  |     -     |
+| Cell size  |8  |8  |16     |
+| N bins |32  |32  |64     |
+| Accuracy |0.6891  | 0.6891 |0.6735     |
+
+
+
+
 
