@@ -1,5 +1,5 @@
 # Iterative algorithm for SVM classifier
-This project is implementation of one vs all SVM kernel based on HOG transform feutures. In additional of an iterative algorithm was developed to find the optimal parameters
+This project is implementation of one vs rest SVM kernel based on HOG transform feutures. In additional of an iterative algorithm was developed to find the optimal parameters
 
 As part of the project, different models of SVM (kernel polynomial-based, kernel RBF-based, linear) were compared. An attempt was made to deduce how each parameter contributes to the accuracy of the machine and how normalization of the data affects accuracy.
 
