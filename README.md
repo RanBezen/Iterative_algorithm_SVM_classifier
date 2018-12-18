@@ -41,11 +41,8 @@ The function to be maximized has 5 parameters, and consists of three different p
   
 ##Iterative algorithm
  	
-argmax(f(C,gamma,cellSize,nbins,S))≈
-1.argmax⁡(f(C,gamma | cellSize,nbins,S)
-2.argmax⁡(f(cellSize,nbins | C,gamma ,S)
-3.argmax⁡(f(S | C,gamma ,cellSize,nbins )
-    if did not covrge- back to 1.
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/iter_algo.PNG)
+
 
  In each iteration, two parts are set to constant, and search is made for the free parameters that maximize the target function using a grid search, for example:
  
