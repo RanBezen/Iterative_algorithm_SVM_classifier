@@ -54,10 +54,12 @@ Parameters initialize
 
 In this project the parameters were adjusted on the data set 1-10 when the training was done on the first 20 images in each class, and the 20 remaining images were generated in the same class.
 
-## Parameters tunning Graphs
+## Parameters Tunning Graphs
+### Karnels
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs1.PNG)
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs2.PNG)
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs3.PNG)
+### Linear
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graphs_linear.PNG)
 
 ## RESULTS
@@ -70,7 +72,7 @@ In this project the parameters were adjusted on the data set 1-10 when the train
 | N bins |32  |32  |64     |
 | Accuracy |0.6891  | 0.6891 |0.6735     |
 
-### Model evaluation
+### Model Evaluation
 The model was tested on  dataset classes 11-20 when the training was done on the first 20 pictures of each class and the 20 images were made in the same class
 
 |         |       RBF     |   Poly     |  Linear    |
@@ -83,7 +85,7 @@ The model was tested on  dataset classes 11-20 when the training was done on the
 
 ### Top two critical errors for eac class
 
-![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/errors_grid.jpg)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/errors_grid.png)
 
 
 
