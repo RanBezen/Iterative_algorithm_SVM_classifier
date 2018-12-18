@@ -70,6 +70,20 @@ In this project the parameters were adjusted on the data set 1-10 when the train
 | N bins |32  |32  |64     |
 | Accuracy |0.6891  | 0.6891 |0.6735     |
 
+### Model evaluation
+The model was tested on  dataset classes 11-20 when the training was done on the first 20 pictures of each class and the 20 images were made in the same class
+
+|         |       RBF     |   Poly     |  Linear    |
+| ------------- | ------------- |------------|------------|
+| Accuracy with normalization | 0.69  |   0.655     |     0.63     |
+| Accuracy without normalization  |0.68  | 0.67  |    0.62     |
+
+### Confusion matrix for rbf
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/conf_matrix.PNG)
+
+### Top two critical errors for eac class
+
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/errors_grid.PNG)
 
 
 
