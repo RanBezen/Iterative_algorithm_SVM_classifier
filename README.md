@@ -11,11 +11,11 @@ The program displays the prediction result, a confusen matrix, and a table with 
 Example:
 with normalization
 
-![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/norm.JPG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/norm.jpg)
 
 without normalization
 
-![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/unnorm.JPG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/unnorm.jpg)
       
 ## MODELS
 The models we tested are:
