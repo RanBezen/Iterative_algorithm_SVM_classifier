@@ -5,7 +5,7 @@ The project based Caltech 101 dataset, and use only the 40 firsts images per cla
 
 As part of the project, different models of SVM (kernel polynomial-based, kernel RBF-based, linear) were compared. An attempt was made to deduce how each parameter contributes to the accuracy of the machine and how normalization of the data affects accuracy.
 
-The program displays the prediction result, a confusen matrix, and a table with the most incorrect classification in each category. In addition, the system maintains the classification and error results for Excel files on the user's computer.
+The program displays the prediction result, a confusen matrix, and a table with the most incorrect classification in each category. In addition, the system maintains the classification and error results for Excel files on user's computer.
 
 ## Normalization of histogram of each image in the dataset was.
 ![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/norm_cal.PNG)
