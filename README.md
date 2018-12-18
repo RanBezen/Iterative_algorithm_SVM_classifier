@@ -53,3 +53,10 @@ Parameters initialize
 4. If the accuracy does not converge (does not exceed two iterations), go back to step 1.
 
 In this project the parameters were adjusted on the data set 1-10 when the training was done on the first 20 images in each class, and the 20 remaining images were generated in the same class.
+
+##Parameters tunning Graphs
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graph1.PNG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graph2.PNG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graph3.PNG)
+![Image description](https://github.com/RanBezen/Iterative_algorithm_SVM_classifier/blob/master/images/graph_linear.PNG)
+
